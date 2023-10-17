@@ -1,0 +1,110 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dfaf9e0e-4ed0-4e69-8ee7-3a0abf68b5dd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200914113930_add_fk_UserFriends.cs" />
+    <Compile Remove="Migrations\20200914113930_add_fk_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\20200914153909_edit_UserFriends_InviteStatus.cs" />
+    <Compile Remove="Migrations\20200914153909_edit_UserFriends_InviteStatus.Designer.cs" />
+    <Compile Remove="Migrations\20200914154219_edit_UserFriends_InviteStatus.cs" />
+    <Compile Remove="Migrations\20200914154219_edit_UserFriends_InviteStatus.Designer.cs" />
+    <Compile Remove="Migrations\20200914154924_add_on_delete_cascade_UserFriend.cs" />
+    <Compile Remove="Migrations\20200914154924_add_on_delete_cascade_UserFriend.Designer.cs" />
+    <Compile Remove="Migrations\20200914155135_add_requredFields_UserFriend.cs" />
+    <Compile Remove="Migrations\20200914155135_add_requredFields_UserFriend.Designer.cs" />
+    <Compile Remove="Migrations\20200914165445_change_userFriends_pk_to_int.cs" />
+    <Compile Remove="Migrations\20200914165445_change_userFriends_pk_to_int.Designer.cs" />
+    <Compile Remove="Migrations\20200914165835_change_userFriends_pk_to_int2.cs" />
+    <Compile Remove="Migrations\20200914165835_change_userFriends_pk_to_int2.Designer.cs" />
+    <Compile Remove="Migrations\20200914170040_change_userFriends_pk_to_int2.cs" />
+    <Compile Remove="Migrations\20200914170040_change_userFriends_pk_to_int2.Designer.cs" />
+    <Compile Remove="Migrations\20200914170822_modify_userfriends.cs" />
+    <Compile Remove="Migrations\20200914170822_modify_userfriends.Designer.cs" />
+    <Compile Remove="Migrations\20200915191542_Modify_Status_Table.cs" />
+    <Compile Remove="Migrations\20200915191542_Modify_Status_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200915191739_Modify_Status_Table.cs" />
+    <Compile Remove="Migrations\20200915191739_Modify_Status_Table.Designer.cs" />
+    <Compile Remove="Migrations\20200916164251_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916164251_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916175022_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916175022_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916181510_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916181510_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916195436_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916195436_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916200147_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916200147_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916200314_Remove_UserStatusId_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916200314_Remove_UserStatusId_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916200520_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916200520_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916200712_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916200712_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916201029_Add_fk_UserStatus_User_Friend.cs" />
+    <Compile Remove="Migrations\20200916201029_Add_fk_UserStatus_User_Friend.Designer.cs" />
+    <Compile Remove="Migrations\20200916201636_fix_fk_UserStatus_User_Friend1.cs" />
+    <Compile Remove="Migrations\20200916201636_fix_fk_UserStatus_User_Friend1.Designer.cs" />
+    <Compile Remove="Migrations\20200920144316_UserSatus_to_UserStatus.cs" />
+    <Compile Remove="Migrations\20200920144316_UserSatus_to_UserStatus.Designer.cs" />
+    <Compile Remove="Migrations\20200923150940_modify-state-of-notification.cs" />
+    <Compile Remove="Migrations\20200923150940_modify-state-of-notification.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913185907_add_model_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913185907_add_model_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913191205_add_model_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913191205_add_model_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913191301_add_model_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913191301_add_model_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913193119_add_model_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913193119_add_model_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913194552_add_model_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913194552_add_model_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913195237_add_model_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913195237_add_model_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913195415_add_model_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913195415_add_model_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913201929_modify_fkey_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913201929_modify_fkey_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913204239_modify_fkey_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913204239_modify_fkey_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913204352_modify_fkey_to_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200913204352_modify_fkey_to_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914111735_UserFriend.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914111735_UserFriend.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914112140_InitialDb.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914112140_InitialDb.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914113503_add_fk_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914113503_add_fk_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914113643_add_fk_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914113643_add_fk_UserFriends.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914114622_InitialDb.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914114622_InitialDb.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914114807_InitialDb.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914114807_InitialDb.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914114840_add_UserFriends.cs" />
+    <Compile Remove="Migrations\ApplicationDb\20200914114840_add_UserFriends.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\ApplicationDb\" />
+  </ItemGroup>
+
+
+</Project>
